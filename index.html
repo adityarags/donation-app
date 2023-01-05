@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Here</title>
+</head>
+<body>
+    <form action="upi://pay?pa=211901000016874@IOBA0002119.ifsc.npci&pn=ADAMBAKKAM KAINKARAYA SABHA&cu=INR">
+        <p>
+            <label for="amount"> Amount <input type="text" id="amount" name="amount" required> </label>
+        </p>
+
+
+        <p>
+            <label for="name"> Name <input type="text" id="name" name="name" required> </label>
+            
+        </p>
+
+
+        <p>
+            <label for="address"> Address <textarea id="address" name="address" required> </textarea></label>
+        </p>
+
+
+
+        <p>
+            ID Option
+            <input type="radio" id="Aadhar" name="selection" value="Aadhar" required>
+            <label for="Aadhar"> Aadhar </label>
+            <input type="radio" id="PAN" name="selection" value="PAN" required>
+            <label for="PAN"> PAN </label>
+        </p>
+
+        <p>
+            <label for="id">  </label>
+            <input type="text" id="id" name="id" required>
+        </p>
+
+
+        <button type="submit">Submit</button>
+
+
+
+
+        <!-- Amount Name address Selection PAN -->
+
+
+    </form>
+</body>
+</html>
